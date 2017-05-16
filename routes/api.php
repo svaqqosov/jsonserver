@@ -13,7 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('project', 'IndexController@show');
 Route::get('project/{id}', 'IndexController@show');
 Route::post('project', 'IndexController@store');
 Route::put('project/{id}', 'IndexController@put');
-Route::patch('project/{id}', 'IndexController@put');
+Route::patch('project/{id}', 'IndexController@patch');
+Route::delete('project/{id}', 'IndexController@delete');
