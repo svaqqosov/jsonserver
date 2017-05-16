@@ -1,0 +1,17 @@
+{
+    "name": "svaqqosov/timezones",
+    "description": "Test timezone package for laravel",
+    "authors": [
+        {
+            "name": "Sardor",
+            "email": "sardor@next-aeon.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Svaqqosov\\Timezones": "src/"
+        }
+    },
+    "require": {}
+
+}
